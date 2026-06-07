@@ -110,3 +110,9 @@ InitTestScene*.unity*
 .serena/
 .vscode/
 CLAUDE.md
+
+# macOS
+.DS_Store
+
+# Claude Code session reports
+session-report-*.html

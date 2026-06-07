@@ -1,0 +1,1029 @@
+fileFormatVersion: 2
+guid: fe280e1c21dff44c7876cb6632381046
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5664d04f2746a456e8bd1d22b6a7d4ad
+      internalID: -272779634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43c5a231efcf480199eab6c815f72c6
+      internalID: 1454910711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c81c07dd7974ffa88c3397012a8795
+      internalID: -1789182171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_3
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858b78590305a4526ac53d61813ac2d5
+      internalID: 1820336046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_4
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390f580284a584e8b98f0d8c9743dae6
+      internalID: 1749406193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_5
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a926b07e9294e018c3ca79b2e2a31a
+      internalID: -1620589072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_6
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d271f5be7bb194399b0e220ea98c4fce
+      internalID: -929707191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_7
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2599b50a262a2403681e058e195a34bb
+      internalID: -520669497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_8
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0325c43f24948d59d6a4f6beecb6c1
+      internalID: 1783256538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_9
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ae6a04842d842fdb558f9f5f505a41
+      internalID: 1713807450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_10
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07392b035e6ce4d7caa4bde0b9143386
+      internalID: 2028883266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_11
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3d4e88e600646b5a6b83031e0a995f
+      internalID: 1235367927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_12
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e892ca82ae15455e9fa1a55b14f8350
+      internalID: -632449227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_13
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d35904130024fc49ef516abed7df00
+      internalID: -199080264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_14
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b10b5ed7cf642d6bf620cd8db2da62
+      internalID: -32773622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_15
+      rect:
+        serializedVersion: 2
+        x: 3372
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f218edbe73f347ddad82993fa81b4ae
+      internalID: -248534025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_16
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032c00c84cfad418e8d49c1ba0f56e27
+      internalID: 1380723112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_17
+      rect:
+        serializedVersion: 2
+        x: 3820
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a457744f9e5354758967e57bc2d21087
+      internalID: 1932369511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_18
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be82a8741c2e942d39cece57e4001ddf
+      internalID: -1353284017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_19
+      rect:
+        serializedVersion: 2
+        x: 4268
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7698e0916a14948bbd777520041d12
+      internalID: 222205920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_20
+      rect:
+        serializedVersion: 2
+        x: 4494
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180c2014bc322432badd4cbde137fa14
+      internalID: -138788353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_21
+      rect:
+        serializedVersion: 2
+        x: 4716
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242d22cb0740d4cb09bd358a7b050888
+      internalID: 1293241021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_22
+      rect:
+        serializedVersion: 2
+        x: 4942
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b0fc4c154fa426080d6843ebcb809d
+      internalID: -1426794644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_23
+      rect:
+        serializedVersion: 2
+        x: 5164
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7f9397fb80e41d185ea7f54060bdda
+      internalID: 1695457371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_24
+      rect:
+        serializedVersion: 2
+        x: 5386
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d181f52d587d841b29e082ad2b31e527
+      internalID: 1430212340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_25
+      rect:
+        serializedVersion: 2
+        x: 5611
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079d254b4c2b844a3b28da0b4222a004
+      internalID: 1717576143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_26
+      rect:
+        serializedVersion: 2
+        x: 5835
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afda47a3c5cf04e388953ffa4035da1f
+      internalID: 204480002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_27
+      rect:
+        serializedVersion: 2
+        x: 6059
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5b49fad279b4a94a9970bace2da47d
+      internalID: 620869355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_28
+      rect:
+        serializedVersion: 2
+        x: 6285
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868025d98dc9d433eb5d20f262d609a0
+      internalID: 1854521136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_29
+      rect:
+        serializedVersion: 2
+        x: 6507
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b233f30840574151885a4c1173659bc
+      internalID: 1051747566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_30
+      rect:
+        serializedVersion: 2
+        x: 6733
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4a60967e8234d21a72cc6a3fed4172
+      internalID: 927261533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_31
+      rect:
+        serializedVersion: 2
+        x: 6955
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f87e7b158cc4250a5c22fa4510e514
+      internalID: 1920783445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_32
+      rect:
+        serializedVersion: 2
+        x: 7181
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c53667d67c04ba5b88d90234e8cfc0
+      internalID: -181828137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_33
+      rect:
+        serializedVersion: 2
+        x: 7403
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e74eaa75f264967a1a4395a05548fa
+      internalID: 212998980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_34
+      rect:
+        serializedVersion: 2
+        x: 7629
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeb1eac72e8346c7996eeb2f4247d70
+      internalID: -655682530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_35
+      rect:
+        serializedVersion: 2
+        x: 7851
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da58b1bff0414e54a4744a1af9bb402
+      internalID: 584037988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_36
+      rect:
+        serializedVersion: 2
+        x: 8077
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310565234d6c34589bc039db6f463c54
+      internalID: -653387120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_37
+      rect:
+        serializedVersion: 2
+        x: 8299
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dfaa91d0d3c4bbb9d6d77829ca1827
+      internalID: -886951445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altar 224x288 - standing on grass_38
+      rect:
+        serializedVersion: 2
+        x: 8525
+        y: 0
+        width: 196
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916c2228461694a5c8e133733c36d669
+      internalID: -740649746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 26bbefb9dc80648dab3d423b459e0832
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      altar 224x288 - standing on grass_0: -272779634
+      altar 224x288 - standing on grass_1: 1454910711
+      altar 224x288 - standing on grass_10: 2028883266
+      altar 224x288 - standing on grass_11: 1235367927
+      altar 224x288 - standing on grass_12: -632449227
+      altar 224x288 - standing on grass_13: -199080264
+      altar 224x288 - standing on grass_14: -32773622
+      altar 224x288 - standing on grass_15: -248534025
+      altar 224x288 - standing on grass_16: 1380723112
+      altar 224x288 - standing on grass_17: 1932369511
+      altar 224x288 - standing on grass_18: -1353284017
+      altar 224x288 - standing on grass_19: 222205920
+      altar 224x288 - standing on grass_2: -1789182171
+      altar 224x288 - standing on grass_20: -138788353
+      altar 224x288 - standing on grass_21: 1293241021
+      altar 224x288 - standing on grass_22: -1426794644
+      altar 224x288 - standing on grass_23: 1695457371
+      altar 224x288 - standing on grass_24: 1430212340
+      altar 224x288 - standing on grass_25: 1717576143
+      altar 224x288 - standing on grass_26: 204480002
+      altar 224x288 - standing on grass_27: 620869355
+      altar 224x288 - standing on grass_28: 1854521136
+      altar 224x288 - standing on grass_29: 1051747566
+      altar 224x288 - standing on grass_3: 1820336046
+      altar 224x288 - standing on grass_30: 927261533
+      altar 224x288 - standing on grass_31: 1920783445
+      altar 224x288 - standing on grass_32: -181828137
+      altar 224x288 - standing on grass_33: 212998980
+      altar 224x288 - standing on grass_34: -655682530
+      altar 224x288 - standing on grass_35: 584037988
+      altar 224x288 - standing on grass_36: -653387120
+      altar 224x288 - standing on grass_37: -886951445
+      altar 224x288 - standing on grass_38: -740649746
+      altar 224x288 - standing on grass_4: 1749406193
+      altar 224x288 - standing on grass_5: -1620589072
+      altar 224x288 - standing on grass_6: -929707191
+      altar 224x288 - standing on grass_7: -520669497
+      altar 224x288 - standing on grass_8: 1783256538
+      altar 224x288 - standing on grass_9: 1713807450
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

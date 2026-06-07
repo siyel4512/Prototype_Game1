@@ -1,37 +1,71 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Animator))]
 public class TopViewMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    [SerializeField] private float moveSpeed = 5f;
 
     private Rigidbody2D rb;
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
     private InputSystem_Actions inputActions;
-    private Vector2 movement;
+    private Vector2 moveInput;
 
-    void Awake()
+    private static readonly int MoveX = Animator.StringToHash("MoveX");
+    private static readonly int MoveY = Animator.StringToHash("MoveY");
+    private static readonly int IsMoving = Animator.StringToHash("IsMoving");
+
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         inputActions = new InputSystem_Actions();
     }
 
-    void OnEnable()
+    private void OnEnable()
     {
         inputActions.Player.Enable();
+        inputActions.Player.Move.performed += OnMovePerformed;
+        inputActions.Player.Move.canceled += OnMoveCanceled;
     }
 
-    void OnDisable()
+    private void OnDisable()
     {
+        inputActions.Player.Move.performed -= OnMovePerformed;
+        inputActions.Player.Move.canceled -= OnMoveCanceled;
         inputActions.Player.Disable();
     }
 
-    void Update()
+    private void OnMovePerformed(InputAction.CallbackContext ctx)
     {
-        movement = inputActions.Player.Move.ReadValue<Vector2>();
+        moveInput = ctx.ReadValue<Vector2>();
     }
 
-    void FixedUpdate()
+    private void OnMoveCanceled(InputAction.CallbackContext ctx)
     {
-        rb.MovePosition(rb.position + movement * (moveSpeed * Time.fixedDeltaTime));
+        moveInput = Vector2.zero;
+    }
+
+    private void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    private void Update()
+    {
+        bool moving = Vector2.zero != moveInput;
+        animator.SetBool(IsMoving, moving);
+
+        if (moving)
+        {
+            animator.SetFloat(MoveX, moveInput.x);
+            animator.SetFloat(MoveY, moveInput.y);
+
+            if (moveInput.x != 0)
+                spriteRenderer.flipX = moveInput.x > 0;
+        }
     }
 }
