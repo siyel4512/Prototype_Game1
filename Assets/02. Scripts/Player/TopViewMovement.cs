@@ -41,6 +41,7 @@ public class TopViewMovement : MonoBehaviour
 
     private void OnMovePerformed(InputAction.CallbackContext ctx)
     {
+        if (ClueUIPanel.IsInventoryOpen) return;
         moveInput = ctx.ReadValue<Vector2>();
     }
 
@@ -51,11 +52,19 @@ public class TopViewMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (ClueUIPanel.IsInventoryOpen) return;
         rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
     }
 
     private void Update()
     {
+        if (ClueUIPanel.IsInventoryOpen)
+        {
+            moveInput = Vector2.zero;
+            animator.SetBool(IsMoving, false);
+            return;
+        }
+
         bool moving = Vector2.zero != moveInput;
         animator.SetBool(IsMoving, moving);
 
