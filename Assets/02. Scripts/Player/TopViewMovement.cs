@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class TopViewMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float sneakSpeed = 2f;
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -53,7 +54,9 @@ public class TopViewMovement : MonoBehaviour
     private void FixedUpdate()
     {
         if (ClueUIPanel.IsInventoryOpen) return;
-        rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
+        bool sneaking = UnityEngine.InputSystem.Keyboard.current.leftShiftKey.isPressed;
+        float speed = sneaking ? sneakSpeed : moveSpeed;
+        rb.MovePosition(rb.position + moveInput * speed * Time.fixedDeltaTime);
     }
 
     private void Update()
