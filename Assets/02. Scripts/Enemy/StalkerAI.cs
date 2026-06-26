@@ -18,7 +18,6 @@ public class StalkerAI : EnemyBase
 
     private State state = State.Dormant;
     private Vector3 spawnPosition;
-    private Vector3 lastKnownPosition;
     private float caughtTimer;
     private LineRenderer ring;
 
@@ -58,7 +57,6 @@ public class StalkerAI : EnemyBase
         if (player == null) { EnterLost(); return; }
 
         // LOS 무관, 항상 플레이어 위치 추적
-        lastKnownPosition = player.position;
         agent.SetDestination(player.position);
 
         if (Vector3.Distance(transform.position, player.position) <= chaseStoppingDistance)
@@ -92,7 +90,6 @@ public class StalkerAI : EnemyBase
         state = State.Chase;
         agent.speed = chaseSpeed;
         agent.stoppingDistance = 0f;
-        if (player != null) lastKnownPosition = player.position;
     }
 
     private void EnterLost()
@@ -163,14 +160,12 @@ public class StalkerAI : EnemyBase
         sp.y = Screen.height - sp.y;
         string extra = state == State.Caught ? $"\n★ CAUGHT ({caughtTimer:F1}s)" : "";
         GUI.Label(new Rect(sp.x - 40, sp.y - 50, 180, 70),
-            $"[Stalker] {state}\nR: {detectionRadius}  Break: {breakRadius}{extra}");
+            $"[Stalker] {state}\nR: {detectionRadius}{extra}");
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = new Color(0.5f, 0f, 0.5f, 0.5f);
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
-        Gizmos.color = new Color(1f, 0f, 0f, 0.2f);
-        Gizmos.DrawWireSphere(transform.position, breakRadius);
     }
 }
